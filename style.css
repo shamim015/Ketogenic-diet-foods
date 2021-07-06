@@ -1,0 +1,10 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.Skip-color{
+    color: blue;
+}
+.half-width{
+    width: 50%;
+    padding: 70px;
+}
