@@ -1,10 +1,90 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
-.Skip-color{
-    color: blue;
+h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+p{
+    font-size: 20px;
+}
+.text-color{
+    color: rgb(255, 170, 11);
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 50px;   
+}
+.link-button{
+    border-radius: 25px;
+    font-weight: bold;
+    text-decoration: none; 
+    padding: 10px 40px; 
+    color: white;
+    background-image: linear-gradient(rgb(255, 166, 0), rgb(253, 46, 9))
+}
+#image-second{
+    height: 800px;
+    width: 600px;
 }
 .half-width{
     width: 50%;
-    padding: 70px;
+    padding-left: 80px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+     
+}
+.half-width-img{
+    width: 100%;
+}
+.banner{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box-shadow{
+    width: 50%;
+    margin: 2.5%;
+    box-shadow: 10px 10px 30px  gray;
+    border-radius: 20px;
+    padding: 30px;
+    padding-right: 10px;
+}
+h2{
+    text-align: center;
+    color: cornsilk;
+}
+.text-align{
+    text-align: center;
+    
+}
+.followers{
+    width: 40%;
+    
+    border-radius: 5px;
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.followers-shadow{
+    width: 80% 80%;
+    margin: 5%;
+    box-shadow: 5px 5px 30px gray;
+    border-radius: 5px;
+    padding-left: 400px; 
+    padding-right: 100px;  
+}
+#last-part{
+    background-color: rgb(5, 5, 5);
+    padding-top: 35px;
+    padding-bottom: 50px;
+}
+.image-size{
+    height: 350px ;
+    width: 450px;
+}
+#last-text{
+    text-align: center;
+    color: white;
 }
